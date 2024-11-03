@@ -11,7 +11,7 @@ public class PalindromeChecker {
             System.out.print("Enter a word (type 0 to stop): ");
             word = keyboard.nextLine();
 
-            if (word.equalsIgnoreCase("0")) {
+            if (word.equals("0")) {
                 System.out.println("Program stopped.");
                 stopProgram = true;
                 break;
