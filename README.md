@@ -1,4 +1,4 @@
-Palindrome Checker
+## **Palindrome Checker**
 
 Welcome to my Palindrome Checker project! This is a Java-based console application that I created to determine whether a given word is a palindrome. A palindrome is a word, phrase, number, or sequence of characters that reads the same backward as forward. With this application, I wanted to provide a simple and interactive way for users to check multiple words and receive immediate feedback on whether each word is a palindrome.
 
