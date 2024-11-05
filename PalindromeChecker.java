@@ -1,3 +1,4 @@
+import java.util.Locale;
 import java.util.Scanner;
 
 public class PalindromeChecker {
@@ -8,10 +9,10 @@ public class PalindromeChecker {
         boolean stopProgram = false;
 
         while (!stopProgram) {
-            System.out.print("Enter a word (type 0 to stop): ");
-            word = keyboard.nextLine();
+            System.out.print("Enter a word (type 'quit' to quit): ");
+            word = keyboard.nextLine().toLowerCase();
 
-            if (word.equals("0")) {
+            if (word.equals("quit")) {
                 System.out.println("Program stopped.");
                 stopProgram = true;
                 break;
@@ -23,7 +24,7 @@ public class PalindromeChecker {
                 reverse += word.charAt(i);
 
             }
-                System.out.println("word in reverse: " + reverse);
+                System.out.println("reverse: " + word + " →→ " + reverse);
 
                 if (reverse.equals(word)) {
                     System.out.println(word + " is a palindrome.");
